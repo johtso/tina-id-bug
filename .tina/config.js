@@ -9,6 +9,11 @@ const schema = defineSchema({
       format: "mdx",
       fields: [
         {
+          type: "string",
+          name: "_id",
+          label: "id",
+        },
+        {
           name: "body",
           label: "Main Content",
           type: "rich-text",
